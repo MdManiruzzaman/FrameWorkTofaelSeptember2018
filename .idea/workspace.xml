@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07d50526-86c3-4982-b52d-01c58f4f7d76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/Generic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/XlsDataReaderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/Xls_Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/OfficeDepot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/data/DataFile2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/main/java/dataReaderCommonClass/XlsDataReaderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Feedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/GoogleSheetPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/OfficeSupplies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/SearchNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/FeedbackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/GoogleSheetPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/LogInTestExcelSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/MainPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/OfficeSuppliesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/PaperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/SearchNewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/SearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/Generic/driver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/Generic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/Generic/src/main/java/base/ReUsableAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/Generic/src/main/java/base/XlsDataReaderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/Generic/src/main/java/base/Xls_Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/driver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/src/main/java/homePage/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/src/main/java/searchEngine/SearchEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/src/main/java/sections/Sections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/src/main/java/signUp/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/src/test/java/homePageTest/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/src/test/java/searchEngineTest/SearchEngineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/src/test/java/sectionsTest/SectionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/src/test/java/signUpTest/SignUpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/NYPost/src/test/resources/NYPostTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/YourLogo/Data/frameworktest.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/YourLogo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/YourLogo/src/main/java/homePage/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/YourLogo/src/main/java/searchEngine/SearchEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/YourLogo/src/main/java/sections/Sections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestFrameWork/YourLogo/src/main/java/signUp/SignUp.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Generic/target/" />
+    <ignored path="$PROJECT_DIR$/OfficeDepot/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-703505858">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="39" />
+          <entry key="java" value="4648" />
+          <entry key="xml" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4648" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="XML" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="base" value="1" />
+          <entry key="class" value="1" />
+          <entry key="html" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="130" />
+          <entry key="json" value="2" />
+          <entry key="png" value="4" />
+          <entry key="xml" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="4" />
+          <entry key="JAVA" value="130" />
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1093">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/SearchNew.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2730#2738#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/GoogleSheetPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/GoogleSheetPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/AccountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/client_secret1.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/SearchNewTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/OfficeDepot/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Search.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/LogIn.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/dataReaderCommonClass/XlsDataReaderUtil.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/LogInTestExcelSheet.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/SearchTest.java" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/hoverOver/OfficeSupplies.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Feedback.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/FeedbackTest.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/test/java/hoverOverTest/AccountTest.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/test/java/hoverOverTest/OfficeSuppliesTest.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/test/java/hoverOverTest/PaperTest.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/hoverOver/Account.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/hoverOver/Paper.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/MainPageTest.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Account.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/StoresNewHover.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/SearchNewTest.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/AccountTest.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/SearchNew.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/GoogleSheetPageTest.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/GoogleSheetPage.java" />
+        <option value="$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Login.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FrameworkSeptember2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FrameworkSeptember2018" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OfficeDepot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OfficeDepot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="33" />
+    <option name="width" value="1356" />
+    <option name="height" value="824" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FrameworkTofaelSeptember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameworkTofaelSeptember2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameworkTofaelSeptember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameworkTofaelSeptember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameworkTofaelSeptember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameworkTofaelSeptember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameworkTofaelSeptember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameworkTofaelSeptember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameworkTofaelSeptember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameworkTofaelSeptember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameworkTofaelSeptember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameworkTofaelSeptember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="OfficeDepot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameworkTofaelSeptember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameworkTofaelSeptember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="OfficeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameworkTofaelSeptember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameworkTofaelSeptember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="OfficeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameworkTofaelSeptember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameworkTofaelSeptember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="OfficeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameworkTofaelSeptember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameworkTofaelSeptember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="OfficeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homePageTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539082110257" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Generic/src/main/resources" />
+      <recent name="$PROJECT_DIR$/OfficeDepot/src/main/java/dataReaderCommonClass" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/java/reporting" />
+      <recent name="$PROJECT_DIR$/OfficeDepot/data" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/java/base" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.GoogleSheetPageTest.testLogInByInvalidIdPassUsingGoogleSheet">
+    <configuration name="AccountTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OfficeDepot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePageTest" />
+      <option name="MAIN_CLASS_NAME" value="homePageTest.AccountTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.accountTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OfficeDepot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePageTest" />
+      <option name="MAIN_CLASS_NAME" value="homePageTest.AccountTest" />
+      <option name="METHOD_NAME" value="accountTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.check" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OfficeDepot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePageTest" />
+      <option name="MAIN_CLASS_NAME" value="homePageTest.AccountTest" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleSheetPageTest.testLogInByInvalidIdPassUsingGoogleSheet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OfficeDepot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePageTest" />
+      <option name="MAIN_CLASS_NAME" value="homePageTest.GoogleSheetPageTest" />
+      <option name="METHOD_NAME" value="testLogInByInvalidIdPassUsingGoogleSheet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchNewTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OfficeDepot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePageTest" />
+      <option name="MAIN_CLASS_NAME" value="homePageTest.SearchNewTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.AccountTest" />
+      <item itemvalue="TestNG.AccountTest.accountTest" />
+      <item itemvalue="TestNG.AccountTest.check" />
+      <item itemvalue="TestNG.SearchNewTest" />
+      <item itemvalue="TestNG.GoogleSheetPageTest.testLogInByInvalidIdPassUsingGoogleSheet" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GoogleSheetPageTest.testLogInByInvalidIdPassUsingGoogleSheet" />
+        <item itemvalue="TestNG.SearchNewTest" />
+        <item itemvalue="TestNG.AccountTest.accountTest" />
+        <item itemvalue="TestNG.AccountTest.check" />
+        <item itemvalue="TestNG.AccountTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07d50526-86c3-4982-b52d-01c58f4f7d76" name="Default Changelist" comment="" />
+      <created>1538434286107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538434286107</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AccountTest_accountTest - 2018.10.07 at 18h 57m 35s.xml">
+      <configuration name="AccountTest.accountTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchNewTest - 2018.10.08 at 17h 49m 11s.xml">
+      <configuration name="SearchNewTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchNewTest - 2018.10.08 at 17h 56m 13s.xml">
+      <configuration name="SearchNewTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSheetPageTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.08 at 19h 40m 36s.xml">
+      <configuration name="GoogleSheetPageTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSheetPageTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.08 at 19h 56m 15s.xml">
+      <configuration name="GoogleSheetPageTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSheetPageTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.08 at 21h 18m 45s.xml">
+      <configuration name="GoogleSheetPageTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AccountTest_accountTest - 2018.10.08 at 21h 20m 07s.xml">
+      <configuration name="AccountTest.accountTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSheetPageTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.08 at 21h 21m 39s.xml">
+      <configuration name="GoogleSheetPageTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSheetPageTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.08 at 21h 24m 02s.xml">
+      <configuration name="GoogleSheetPageTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSheetPageTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.08 at 21h 25m 13s.xml">
+      <configuration name="GoogleSheetPageTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="33" width="1356" height="824" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20852359" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49958575" visible="true" weight="0.13934426" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5259563" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32882273" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50041425" side_tool="true" weight="0.43032786" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.18569255" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19457014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5910326" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32882273" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32882273" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32903865" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Feedback.java</url>
+          <line>19</line>
+          <properties field="otherFeedback" class="homePage.Feedback" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FrameworkTofaelSeptember2018.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Automation/TestFrameWork/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReUsableAPI.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/Xls_Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/XlsDataReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-613">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/screenshots/officeSuppliesTest (10.06.2018-01:27AM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/screenshots/acessYourRewards (10.01.2018-22:37PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/screenshots/officeSuppliesTest (10.06.2018-01:19AM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/dropDown.java" />
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/FeedbackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/dataReaderCommonClass/XlsDataReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/OfficeSupplies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Paper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/OfficeSuppliesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/LogInTestExcelSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1028">
+          <caret line="1232" selection-start-line="1232" selection-end-line="1232" />
+          <folding>
+            <element signature="e#40195#40196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/PaperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/MainPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="169" column="57" lean-forward="true" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/SearchNewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/SearchNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2730#2738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="138" column="25" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4659#4660#0" expanded="true" />
+            <element signature="e#4727#4728#0" expanded="true" />
+            <element signature="e#6085#6097#0" expanded="true" />
+            <element signature="e#6142#6150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/client_secret1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/homePageTest/GoogleSheetPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/GoogleSheetPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1093">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FrameworkTofaelSeptember2018</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.aventstack:extentreports:3.0.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
