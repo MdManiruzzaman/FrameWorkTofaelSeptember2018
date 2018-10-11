@@ -10,7 +10,7 @@ public class XlsDataReaderUtil {
 
         ArrayList<Object[]> myData = new ArrayList<Object[]>();
         try {
-            reader = new XlsReader("/Users/shams/IdeaProjects/Automation_FrameWork_Group2/LinkedIn/data/LinkedInDataReader.xls");
+            reader = new XlsReader("/Users/shams/IdeaProjects/FrameWorkTofaelSeptember2018/H&M/data/HnMDataReader.xls");
         }
         catch (Exception e){
             e.printStackTrace();

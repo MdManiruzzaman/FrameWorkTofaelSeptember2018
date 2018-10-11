@@ -1,7 +1,5 @@
 package dataReaderCommonClass;
 
-import base.Xls_Reader;
-
 import java.util.ArrayList;
 
 public class XlsDataReaderUtil {
