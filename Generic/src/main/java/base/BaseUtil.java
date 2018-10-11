@@ -40,14 +40,16 @@ public class BaseUtil{
     public static WebDriverWait wait = null ;
     @BeforeMethod
     public void setup() throws MalformedURLException {
-        System.setProperty("webdriver.chrome.driver","/Users/mohammadsharkar/Desktop/fahimbhaimta/GroupGreenFrameWork/FrameworkTofaelSeptember2018/Generic/browser-driver/chromedriver");
+        //System.setProperty("webdriver.chrome.driver","/Users/mohammadsharkar/Desktop/fahimbhaimta/GroupGreenFrameWork/FrameworkTofaelSeptember2018/Generic/browser-driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/shams/IdeaProjects/FrameWorkTofaelSeptember2018/Generic/shamsDriver/chromedriver");
         //setUpBrowserStack();
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
         builder = new Actions(driver);
         wait = new WebDriverWait(driver,10);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("https://www.officedepot.com/");
+        //driver.get("https://www.officedepot.com/");
+        driver.get("https://www2.hm.com/en_us/");
 
         // driver.manage().window().fullscreen();
     }

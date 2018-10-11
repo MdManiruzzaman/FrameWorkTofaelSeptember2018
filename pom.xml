@@ -12,6 +12,7 @@
         <module>OfficeDepot</module>
         <module>Generic</module>
         <module>NYPost</module>
+        <module><![CDATA[H&M]]></module>
         <!--<module>HomeDepot</module>
         <module>CUNY</module>
         <module>SantanderBank</module>-->

@@ -20,7 +20,7 @@ public class XlsDataReaderUtil {
         for (int rowNum =2; rowNum <= reader.getRowCount("Sheet1"); rowNum++){
             String  email = reader.getCellData("Sheet1", "email",rowNum );
             String passCode = reader.getCellData("Sheet1","passCode", rowNum);
-            //String message = reader.getCellData("Sheet1","message", rowNum);
+            String message = reader.getCellData("Sheet1","message", rowNum);
             //Object obj[] = {email,passCode, message};
             Object obj[] = {email,passCode};
             myData.add(obj);

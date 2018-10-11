@@ -38,11 +38,11 @@ public class Login extends BaseUtil {
     @FindBy(xpath = "//*[@id=\"activateAccountLoyalty\"]/a")
     public static WebElement AccessYourRewards;
 
-    public static void navigateToLoginPage(){
+    /*public static void navigateToLoginPage(){
         TestLogger.log(Login.class.getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.navigate().to("https://www.officedepot.com/account/loginAccountSet.do");
         loginLink.click();
-    }//need to know how to get this address in above line
+    }*///need to know how to get this address in above line
     public void setSubmitLogInButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         submitLogInButton.click();
