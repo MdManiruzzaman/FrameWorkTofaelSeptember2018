@@ -144,6 +144,9 @@ public class BaseUtil{
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
         webElement.sendKeys(value + Keys.ENTER);
     }
+    public void typeOnInputField(String locator, String value) {
+        driver.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
+    }
     public void clearInputBox(WebElement webElement){
         webElement.clear();
     }
