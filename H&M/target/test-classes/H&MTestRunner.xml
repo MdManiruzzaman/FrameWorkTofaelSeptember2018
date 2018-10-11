@@ -15,7 +15,7 @@
         <classes>
             <class name="homePageObjectTest.HomePageTest"/>
             <class name="homePageObjectTest.KeyWordLogInTest"/>
-            <class name="homePageObjectTest.LogInByXlsTest"/>
+           <!-- <class name="homePageObjectTest.LogInByXlsTest"/>-->
 
         </classes>
     </test>
